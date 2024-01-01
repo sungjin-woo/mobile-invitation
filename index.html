@@ -425,15 +425,13 @@
                 <img src="img/oksu_map.png" width="90%" />
             </div>
             <br />
-            <div id="map" class="wow fadeInUp" style="width:100%;height:360px;">
-                <center>
-                    <div id="daumRoughmapContainer1704090959290" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-                </center>
+            <div id="map" class="wow fadeInUp" style="width:100%;height:100%;">
+                <div id="daumRoughmapContainer1704090959290" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%;"></div>
                 <script charset="UTF-8">
                     new daum.roughmap.Lander({
                         "timestamp" : "1704090959290",
                         "key" : "2hhyc",
-                        "mapWidth" : "400",
+                        // "mapWidth" : "400",
                         "mapHeight" : "360"
                     }).render();
                 </script>
